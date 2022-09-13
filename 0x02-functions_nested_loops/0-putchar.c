@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * main - Entry point
@@ -6,15 +7,7 @@
  */
 int main(void)
 {
-	char alx[] = "_putchar";
-	int i = 0;
-
-	while (alx[i] != '\0')
-	{	
-		_putchar(alx[i]);
-		i++;
-	}
-	_putchar('\n');
+	_putchar("\n");
 
 	return (0);
 }
