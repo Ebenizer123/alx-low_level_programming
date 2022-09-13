@@ -8,7 +8,9 @@
  */
 int main(void)
 {
-	printf("_putchar\n");
+	char i = "_putchar";
+	while ((c = getchar()) != EOF)
+		putcahr("%s\n", i;)
 
 	return (0);
 }
