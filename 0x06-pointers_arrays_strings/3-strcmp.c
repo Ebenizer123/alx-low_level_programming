@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcmo - a function that copies a string
+ * _strcmp - a function that copies a string
  * @s1: a string
  * @s2: a string
  * Return: string
